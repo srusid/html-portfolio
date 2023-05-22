@@ -1,0 +1,237 @@
+
+/* Global rules applicable to all html pages.......... */
+body {
+    background-color: black;
+    
+}
+
+header {
+    background: dimgrey; /* dimgrey    #696969    rgb(105,105,105) */
+    padding: 5px 0px;
+    margin: none;
+    border: 2px solid black; /* width style color */
+    border-radius: 10px;
+    
+}
+
+.home {
+    background: #40e0d0; /* turquoise #40E0D0 rgb(64,224,208) */
+}
+
+.intro {
+    background: salmon; /* salmon     #FA8072     rgb(250,128,114) */
+}
+
+.bio {
+    background: rgb(100, 215, 109); 
+}
+
+.learning {
+    background: rgb(218, 213, 71); 
+}
+
+.ref {
+    background: rgb(209, 142, 214); 
+}
+
+
+.home, .intro, .bio, .learning, .ref {
+    color: rgb(0,0,0); /* black    #000000    rgb(0,0,0) */
+    padding: 20px 15px; 
+    /* padding adds/removes space inside of the element but around the content box. */
+    border-radius: 5px;
+    border: 2px dotted black;
+    margin: 10px 0px;
+    height: 20px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    margin: 20px 0px 0px;
+    font-size: 40px;
+}
+
+
+
+/* Home page(index.html) rules............... */
+
+.home, .assessment, .description, .list, .footerintro {
+    background : #40e0d0 /* turquoise #40E0D0 rgb(64,224,208) */
+}
+
+.assessment {
+    color: crimson; /* crimson #DC143C rgb(220,20,60)*/
+    margin: 30px 10px 0px;
+
+}
+
+.description {
+    padding: 10px 60px;
+    margin: 0px 10px;
+    
+}
+
+.list {
+    padding: 10px 100px 30px;
+    margin: 0px 10px 30px;
+
+}
+
+.list , .description {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+.footerintro {
+    display: flex;
+    flex: 2 200px;
+    flex-direction: column;
+    padding: 10px 10px 10px;
+    margin: 0px 0px 20px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+
+/* Introduction page rules............... */
+
+.intro, .introductory, .h2intro, .CT, .CTintro, .CTimage, .CTdetails, .footerCT {
+    background: salmon;
+    color: black;
+     
+
+}
+
+.CTintro, .h2intro, .CTimage, .pillars, .CTdetails {
+    padding: 10px 60px;
+    margin: 0px 10px;
+    
+}
+
+.introductory{
+    text-align: center;
+    margin: 20px 10px;
+
+
+}
+
+.CTintro, .CTdetails {
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.CTimage {
+    float: left;
+   
+}
+.CT {
+    padding: 10px 100px 10px;
+    margin: 0px 10px;
+    font-size: 15px;
+
+}
+
+.pillars{
+    font-size:18px;
+    color: white;
+    background: salmon;
+
+}
+
+.footerCT {
+    padding: 15px 10px 15px;
+    margin: 10px 0px;
+    font-size: 10px;
+}
+
+
+  
+
+/* Biography page rules............... */
+
+.biography, .adaIntro, .adaMaths, .adaNotes {
+    background: rgb(100, 215, 109); 
+    color: black; 
+
+}
+
+.biography {
+    font-size: 30px;
+    margin: 20px 10px 0px;
+
+} 
+
+.adaImage {
+    float:right;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 60px 10px 20px;
+    margin: 0px;
+    
+}
+
+
+.adaIntro, .adaMaths, .adaNotes {
+    padding: 10px 60px;
+    margin: 0px 10px;
+    text-align: justify;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+
+
+/* Learning page rules............... */
+
+.h1Learn, .h2learn, .learn {
+    background: rgb(218, 213, 71); 
+    color: black; 
+}
+
+.h2learn {
+    padding: 10px 60px;
+    margin: 10px 10px 0px;
+}
+
+.learn {
+    padding: 10px 60px;
+    margin: 0px 10px;
+    text-align: justify;
+}
+
+.h1Learn {
+    margin: 20px 10px 0px;
+
+}
+
+
+
+/* References page rules............... */
+
+.references, .h1ref {
+    background: rgb(209, 142, 214); 
+    color: black; 
+}
+
+.references {
+    padding: 10px 60px;
+    margin: 0px 10px 20px;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.h1ref {
+    margin: 20px 10px 20px;
+
+}
